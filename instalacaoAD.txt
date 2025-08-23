@@ -1,0 +1,11 @@
+clicar no add roles and features
+	no server roles 
+		selecionar active Directory Domain Services
+		next next concluir
+	Depois de instalado o Directory Domain Services
+		Preciso de promover o servidor a domain controller
+		Posso clicar no  icone que aparece em amarelo e selecionar 
+			Promote this server to a domain controller
+		Posso adicionar uma nova floresta caso nao exista uma
+			especifico o dominio para operacao 
+				serv.local
