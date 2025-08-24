@@ -1,0 +1,13 @@
+Editar papel de parede para grupo de usuarios 
+
+Crio um grupo especifico na unidade organizacional 
+	vou em edit 
+		configuracao de usuario 
+			modelos administrativos 
+				area de trabalho 
+					active desktop
+						papel de parede da area de trabaho 
+							editar 
+								habilitar 
+									Nome do papel de parede 
+										ampliar
