@@ -1,0 +1,6 @@
+lixeira do active director
+pra usar é preciso habilitar primeiro o recurso
+	tools 
+		central administrative do active director
+			clicar no dominio 
+				no lado direito vai ter habilitar lixeira
