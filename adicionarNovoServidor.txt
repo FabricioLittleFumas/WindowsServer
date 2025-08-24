@@ -1,0 +1,8 @@
+Instalo um novo servidor
+insiro o ip na mesma faixa
+o dns vai ser o do ip do servidor
+
+vou no servidor primario 
+	adiciono o servidor 2 no painel do gerenciador do servidor
+	segunda opcao
+		coloco o nome e adiciono
