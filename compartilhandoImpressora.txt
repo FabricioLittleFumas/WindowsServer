@@ -1,0 +1,22 @@
+Simular impressora 
+	painel de controle 
+		hardware
+			dispositivos e iumpressoras 
+				opcoes avancadas
+					adicionar manualmente uma impressora
+						generic 9 pin
+Vou no painel de controle 
+	clico na impressora intalada vou 
+		propriedades da impressora 
+			compartilhamento
+				listar impressora 
+				copio o nome dela também
+
+Crio um grupo de impressora 
+	edit a polita de impressora 
+	config usuario 
+		preferencia 
+			configuracao do painel de controle 
+				impressoras 
+					novo impressora compartilhada
+					
