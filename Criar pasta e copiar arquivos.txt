@@ -1,0 +1,11 @@
+Criar pasta e copiar arquivos 
+	editar GPO 
+		aplicada ao usuario
+			preferencia 
+				Configuracao do windows 
+					Pasta 
+						arquivo morto
+						c:\arquivos
+	Novo aquivo
+		\\serv\arquivos$\papel
+		c:\arquivos.papel1.jpg
