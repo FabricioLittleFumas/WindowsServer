@@ -1,0 +1,6 @@
+defaulDomainPolicy
+	configuração do computador
+		configuracoes do windows 
+			configuração de segurança 
+				politicas de conta 
+					politicas de senha
