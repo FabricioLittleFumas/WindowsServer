@@ -1,0 +1,17 @@
+46J3N-RY6B3-BJFDY-VBFT9-V22HG
+
+RHGJR-N7FVY-Q3B8F-KBQ6V-46YP4
+
+clicar com o botao direito do mouse em 
+	abrir configuracoes de rede e internet
+		ethernet lado esquerdo 
+			alterar opções do adaptador
+				escolher o adaptador e ir em propriedades 
+Para apontar o servidor remotp
+	painel de controle 
+		sistema
+			descer até renomear este computador
+				ir em alterar
+				indicar o dominio do director controller do servidor
+				criar um nome de maquina que sera visto no director controller	
+				
