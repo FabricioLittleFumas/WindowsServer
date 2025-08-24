@@ -1,0 +1,14 @@
+edit
+	configuracao de computador
+	politicas 
+		configuracoes do windows 
+		configuracoes de seguranca
+			politicas locais 
+			atribuicao de direitos de usuarios 
+		negar logon via area de trabalho remoto 
+		negar logon local 
+			definir 
+			adicionar um usuario ou grupo 
+			seleciona o procurar 
+			verifica nomes
+			ok 
