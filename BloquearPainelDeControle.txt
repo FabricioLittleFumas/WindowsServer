@@ -1,0 +1,25 @@
+Crio uma GPO
+	PainelDeControle
+		edito ela 
+		vou em configuração do usuário 
+			Politicas
+			Modelos Administrativos
+				Painel de controle 
+				lado direito 
+					clico em proibir 
+					habilitar
+Poso liberar acesso ao painel de controle 
+	crio uma GPO a uma unidade organizacional 
+	Desabilito painel de controle 
+	imposto sobre ela vai ser imposta sobre a proibicao
+
+desabiltar a politica de grupo
+	clico em gerenciamento de polita de grupo 
+		vou na GPO
+			em delegação mostra quem recebe a GPO 
+				vou em avançado canto inferior direito
+				adiciono o usuario
+					aplicar politica de grupo negar 
+
+gpupdate /force
+para forcaçar atualizacao de politicas de grupo 
