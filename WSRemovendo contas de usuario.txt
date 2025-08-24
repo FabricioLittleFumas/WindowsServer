@@ -1,0 +1,31 @@
+Removendo Usuario local
+	\.user1 ele local como user local 
+	painel de controle
+		Contas de usuario
+			Contas de Usuario 
+				Gerenciar contas de usuário
+					Remover o usuário local
+	Assim apenas o usuário do domínio poderá efetuar login no computador
+
+Criacao de logon -- usuario com data de expiração e remocao parametros de senha
+	clicar com botao direito em tools (canto superior direito)
+		active directory users and computers
+			clicar no dominio.local
+				selecionar a pasta e clicar com direito
+					new 
+						User
+							Definir as propriedades do novo Usuario
+	Usuario criado
+		clicar no usuário recem criado
+			ir em propriedades
+				ir em account
+					definir expiração em baixo
+Gerenciamento de senhas --objetivo de criar senha simples
+	ir em tools (canto superior direito)
+		active directory administrative center
+			ir em system
+				password settings container 
+					clicar no canto direito em new (novo)
+						criar um perfil
+
+	
