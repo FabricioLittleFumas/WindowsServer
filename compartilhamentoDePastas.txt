@@ -1,0 +1,45 @@
+compartilhamento de pastas
+abrir o explorador de arquivos
+	criar uma pasta chamada de publica
+		apos criar a pasta 
+			botao direito em propriedades	
+				compartilhamento avancado
+					permissoes para todos
+						controle total
+	Na propriedades tenho um caminho de rede
+
+No Active director
+	vou no usuarios e computadores do active director
+		clico no usuario 
+			botao direito vou em perfil 
+			caminho local no proprio disco dele
+			conectar	-- letra x 
+
+criando uma pasta especifica
+	criar uma pasta no dominio denominada pastaBase
+		vou em propriedades
+			compartilhamento
+				compartilhamento avançado
+					No final do nome da pasta coloco o $ para que seja uma pasta oculta
+					removo everyone 
+					adiciono o domain seleciono quem vai compartilhar a pasta
+	apos criada vou em seguranca 
+		opcaao avancada
+			desabilitar heranca
+			remover o user das propriedades 
+	usuario e computadores do active director -- para indicar o local das pastas para criacao
+		vou em usuarios que eu quero alterar 
+			propriedades
+				perfil
+					pasta base\%username%
+
+
+net user Z: \\Servidor1\publica
+net user X: \\Servidor1\PastaBase$\%username%
+
+c:windows\sysvol\empresa.locla\scripts\script.bat
+
+vou em usuario do active director 
+	vou rm perfil 
+		no script
+			coloco no nome do script.bat 
