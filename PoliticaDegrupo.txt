@@ -1,0 +1,52 @@
+repadmin /showrepl
+no cmd para ver se a replicacao do novo ad  foi bem sucedida
+
+Tools 
+	managet grup politic
+	seleciono o domonio 
+	clico com o direito em default 
+		edit 
+			visualizo as politicas aplicadas
+	--para criar uma gro
+		clico com o direito criar um GPO neste dominio e fornecer um link para ele aqui
+		compartilhar Pasta Publica caminho de rede 
+			configuracao de usuario 
+			preferencia
+				configuracao do windows 
+					mapa de unidades 
+						novo 
+							unidade mapeada
+							ação 
+								atulizar 
+							local local da para 
+								\\Servi\pasta
+							Reconectar 
+								true 
+							rotular como 
+								Pasta publica 
+							Letra de unidade
+								x
+
+Para compartilhar uma pasta especifica a um grupo de pessoas
+	criar um grupo com os usuarios que eu quero compartilhar
+		criar um grupo 
+		adicionar os usuarios ao grupo 
+	
+	Criar uma pasta
+		propriedades 		
+			compartilhamento
+			habilitar o compartilhamento 
+			tirar o everyone
+			adicionar o grupo que eu quero
+	no tolls user e computer 
+	
+	ir em group policy management
+		criar uma politica de grupo la pra todos
+			ir em user configuration 
+				driver maps 
+					adiciono a pasta compartilhada e finalizo
+	
+		
+
+	
+	
