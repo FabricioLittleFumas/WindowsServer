@@ -1,0 +1,13 @@
+Restricao de horario para logar na maquina 
+vou no active director
+	seleciono o usuario 
+		vou em propriedades
+			aba conta
+				horario de login
+					definir o branco horario negado
+para restringir acesso a determinadas maquinas
+vou no active director
+	seleciono o usuario
+		vou em propriedades
+			vou em fazer logon em lado direito
+				indicar o nome identificado no dns e adicionar
