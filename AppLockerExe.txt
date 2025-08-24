@@ -1,0 +1,28 @@
+AppLocker 
+	bloqueia qualquer exe
+	
+Crio uma GPO 
+	editar 
+		configuracao do computador 
+			politicas 
+				configuracao do windows
+					configuracao de seguranca 
+						politica de controle de aplicativo 
+							appLocker 
+								direito em cima vou em propriedades 
+								configurado 
+									somente auditoria apenas log do sistema 
+									impor regras ele bloqueia
+								direito 
+									criar regras padrao 
+								crio uma regra 
+									negar 
+									todos
+									vou em hash
+										windows\system32\cmd.exe
+	servicos de sistemas 
+		identidade do aplicativo 
+			definido 
+				automatico
+					aplicar ok 
+	imposto 
