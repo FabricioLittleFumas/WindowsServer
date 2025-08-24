@@ -1,0 +1,63 @@
+office deployment tool 
+	download .
+	separar em duas pastas uma 32 bit e uma 64 bit
+		copia o setup e x64 e copia para dentro da pasta
+	edito o xml 
+		language pt-br
+		tirar o visio 
+pelo cmd 
+	ir em instalacao do 64 bit 
+		setup.exe /download download.xml
+
+apos a finalização do download
+	descomentar o xml as tres ultimas linhas 
+	salva
+colo na pasta compartilhada 
+
+crio um arquivo no bloco de notas 
+
+\\Servidor1\Arquivos\32-bit\setup.exe /configure \\Servidor\arquivo\instalar.xml
+salvar como arquivos 32bit
+	instalar32.bat
+arquivo de lot
+
+abrir politicas de grupo
+	criar uma nova GPO
+		instalacao office 365 32bit 
+			editar 
+				configuracao do computador 
+					politicas 
+						configuração do windows
+							Script de inicialização 
+								mostrar arquivos 
+									copio e colo o .bat do 32
+								adiciono 
+									ok ok 
+	aumentar o tempo para inicializar o script de inicialização 
+	configuração do computador 
+		politicas 
+			modelos administrativos 
+				sistemas
+					scripts 
+						espeficicar tempo de espera maxima 2500
+			configuracao do windows 
+				configuracao de seguranca
+					politicas locais
+						opcoes de segurança 
+							controle de conta de usuario comportamento da solicitacao 
+							de elevacao de administradores no modo de aprovacao do 
+							administrador 
+								elevar sem aviso 
+				configuracao de segurança 
+					politicas locais 
+						opcoes de seguranca 
+							controle de conta de usuario modo de aprovacao de administrador para conta de administrador interno
+								desabilitar essa opcao 
+	indicar a opcao do filtro em baixo imposto 
+
+
+
+
+
+
+												

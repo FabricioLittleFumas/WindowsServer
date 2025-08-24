@@ -1,0 +1,64 @@
+instalacao software via GPO 
+normalmente o software via GPO tem a extensao msi 
+Criar no dominio a instalação se for leve ou faça por setor 
+	criar GPO 
+		instalar google chrome 64 bits 
+	editar 
+		politica de grupo do computador 
+		configuracao de software
+			instalação de software 
+				novo pacote 
+					\\Serv\arquivos\installers 
+					atribuido 
+					direito propriedades
+		imposto 
+
+filtro wmi
+
+
+Windows 10 Todos
+select Version from Win32_OperatingSystem WHERE Version like "10.%" AND ProductType="1" AND OSArchitecture = "64-bit"
+select Version from Win32_OperatingSystem WHERE Version like "10.%" AND ProductType="1" AND NOT OSArchitecture = "64-bit"
+select Version from Win32_OperatingSystem WHERE Version like "10.%" AND ProductType="1"
+
+
+Windows 10 1703
+select Version from Win32_OperatingSystem WHERE Version like "10.0.15063" AND ProductType="1" AND OSArchitecture = "64-bit"
+select Version from Win32_OperatingSystem WHERE Version like "10.0.15063" AND ProductType="1" AND NOT OSArchitecture = "64-bit"
+select Version from Win32_OperatingSystem WHERE Version like "10.0.15063" AND ProductType="1"
+
+
+
+Windows 7, 8 and 8.1 (Todos antes do 10)
+select Version from Win32_OperatingSystem WHERE Version like "6.%" AND ProductType=”1″ AND OSArchitecture = “64-bit”
+select Version from Win32_OperatingSystem WHERE Version like "6.%" AND ProductType=”1″ AND NOT OSArchitecture = “64-bit”
+select Version from Win32_OperatingSystem WHERE Version like "6.%" AND ProductType=”1″
+
+Windows 8.1
+select Version from Win32_OperatingSystem WHERE Version like “6.3%” AND ProductType=”1″ AND OSArchitecture = “64-bit”
+select Version from Win32_OperatingSystem WHERE Version like “6.3%” AND ProductType=”1″ AND NOT OSArchitecture = “64-bit”
+select Version from Win32_OperatingSystem WHERE Version like “6.3%” AND ProductType=”1″
+
+Windows 8
+select Version from Win32_OperatingSystem WHERE Version like "6.2%” AND ProductType=”1″ AND OSArchitecture = “64-bit”
+select Version from Win32_OperatingSystem WHERE Version like "6.2%" AND ProductType=”1″ AND NOT OSArchitecture = “64-bit”
+select Version from Win32_OperatingSystem WHERE Version like "6.2%" AND ProductType=”1″
+
+Windows 7
+select Version from Win32_OperatingSystem WHERE Version like "6.1%" AND ProductType="1" AND OSArchitecture = "64-bit"
+select Version from Win32_OperatingSystem WHERE Version like "6.1%" AND ProductType="1" AND NOT OSArchitecture = "64-bit"
+select Version from Win32_OperatingSystem WHERE Version like "6.1%" AND ProductType="1"
+
+
+Sistemas Operacionais 64-bit
+
+select * from Win32_OperatingSystem WHERE OSArchitecture = "64-bit"
+
+
+Sistemas Operacionais 32-bit
+
+select * from Win32_OperatingSystem WHERE OSArchitecture = "32-bit"
+
+filtro wmi 
+	windows1064bits
+	colocar a consulta acima 

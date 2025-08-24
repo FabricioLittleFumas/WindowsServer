@@ -1,0 +1,13 @@
+pdq deploy para converter pacotes para instalação via GPO
+new package 
+	libreoffice 
+		new step 
+			install 
+				onde esta o arquivo de instalacao 
+					\\server1\arquivos\
+save
+fecho a janela tem 
+	clico em deply
+		target 
+			active director 
+		deploy now 
