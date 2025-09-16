@@ -1,0 +1,40 @@
+Pra instalar o admin center precisa ser administrador 
+	 buscar no browser pelo termo 
+		windows admin center 
+			entrar no site oficial do windows 
+				executar o arquivo baixado 
+					nao atualizar 
+					marcar a porta 	
+					deixar a porta o windows vai liberar por padrao a porta 
+					abrir o windows admin center 
+
+Para eu logar no wac windows admin center na mesma rede 
+	usuario é o administrador 
+		Nome do servidor \ administrator
+		SERV.local\administrator
+	Senha do usuario administrator
+	
+Para adicionar um servidor no wac 
+	clico em adicionar 
+		insiro o nome do servidor que eu quero me conectar
+
+windows admin center serve mais ara compartilhamento de pastas e arquivos 
+gerenciar firewall 
+
+rsat software especifico para gerenciamento remoto de servidores
+	rsat windows 10 
+	download 
+
+Acesso remoto 
+	Ir na central administrativa do active director
+	habilitar desktop managment 
+	ir no windows 10
+		ir em opções e escrever remote conexao 
+		indicar o ip 
+		usuario e senha em baixo
+
+acessando area de trabalho remotamente via aplicativo 
+	baixar microsoft remote desktop 
+	
+delegando autoridade a usuario especifico 
+
