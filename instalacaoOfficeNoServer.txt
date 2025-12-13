@@ -1,0 +1,50 @@
+Como instalar o office do windows atráves do Servidor Windows
+
+Vou em baixar officeDeployManagement da internet
+vou na pasta de download 
+	extraio o  arquivo em uma pasta pessoal de local conhecido
+vou no arquivo install.xml
+	edito a language para pt-br
+	deixo comentado abaixo
+vou no cmd 
+	vou ate o diretorio dos arquivos 
+	digito 
+		setup.exe /download intall.xml
+	será feito o download
+Depois de feito o download entrar na pasta install.xml 
+	Descomentar as ultimas afirmativas 
+criar uma pasta compartilhada e inserir os arquivos editados e baixados nele
+		\\caminhoderede\\
+depois preciso de um script.bat para colocar na politica de grupo 
+	criar um arquivo intall.bat e colocar junto das pasta de download
+	escrever o seguinte comando
+		\\caminho de rede\setup.exe /configure \\caminho de rede do servidor da pasta compartilhada\intall.xml
+vou no server manager
+	vou group policy management
+	crio uma politica geral pra todos os usarios chamada InstalacaoOffice
+		edito a politica 
+		em politicas do computador 
+			policies 
+				windows settings 
+				script 
+					clico no startup duas vezes
+			vou em add 
+				acho o arquivo install.bat e colo nesta pasta 
+				depois clico em add e adiciono dessa pasta
+		em politicas do computador 
+			vou em policies 
+				windows settings 
+					security settings 
+						local policies 
+							security  options
+								user accont control: Behavior of the elevation prompt for administrators in 
+									elevate without prompting	
+								user account control: Admin approval mode for the built-in administrator 
+									disabled
+	vou em administrativo template 
+		system
+			script 
+				specify maximum wait time for group policy scripts enabled 2500
+
+
+	

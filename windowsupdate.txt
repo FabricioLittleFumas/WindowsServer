@@ -1,0 +1,44 @@
+Atualizacao de windows 
+	gerenciamento de polica de grupo
+		entrar no default domain police 
+			policia de computador	
+				politicas administrativas 
+					Componentes do windows 
+						windows update 
+							configurar atualizações automáticas 
+							vale tanto pra atualização tradicional quanto pra servidor
+Criando o servidor de upload 
+	reservar um espaço em disco para armazenar o upload
+	criar um espaço de armazenamento adequado separado 
+		em maquina virtual criar um storage e criar o espaço alocado 
+	no windows server 
+		entrar em disk management 
+		clicar com botao direito em disk1 e inicializar particao 
+		mbr 
+		criar um volume simples
+	entro no server manager 
+		adicionar features 
+			seleciono windows server update services
+		tools windowsupdateserver
+			caso eu feche o assistente 
+			entror no windowsupdateserver
+				clico no servidor 
+				vou em opções 
+					no ultimo campo tem o assistente de configuração do servidor wsus
+			clicar em pendencia 
+				baixar as atualizações necessárias
+criar uma gpo
+windows updateIntranet
+	editar 
+		configurações de computaodr
+			politicas 
+				modelos administrativos 
+					componentes do windows
+						windows update 
+							configurações automaticas
+								opção 4
+								aplicar ok
+							especificar o local de serviõ de atualizaão via intranet da microsoft 
+								habilitar
+								http://nomedoservidor.servidor1.local:8530
+		
