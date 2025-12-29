@@ -1,0 +1,20 @@
+Azure
+faço a assinatura no azure
+
+No azure para criar um backup
+	vou em criar novo recurso
+		procuro por backup and site recovery oms 
+	vou em baixo clico em criar em baixo
+		coloco o nome do backup 
+		tipo de assinatura
+		grupo de recurso
+			crir novo  
+		localizacao do backup
+	depois de implantado 
+		vou no backup criado 
+		vou em backup 
+	clico em adicionar um backup
+		backup local 
+		arquivos e pastas
+		preparar a insfraestrutura
+
