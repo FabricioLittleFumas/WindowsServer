@@ -1,0 +1,28 @@
+Windows Server Update
+Editar atualização para todas as maquinas sem um servidor de atualização
+
+	configuraçao do computador 
+		politicas 
+			componentes do windows
+				windows update 
+				configurar atualizações automaticas
+					dois clicks -- também vale pra atualização via servidor também 
+					habilitar
+	
+atualizacao do servidor 
+	criar um disco separado para armazenar as atualizações
+	disk manager 
+		crio e formato a partição criada
+	adicionar funcoes e recursos 
+		windows server update services 
+
+configurando o windows update via intranet
+	crio uma politica local no gerenciamento de politicas 
+	computer configuration 
+		policies 
+			 modelos administrativo templates
+				componen windows
+					windows update 
+						atualização automatica 
+						especificar local atualizacao intranet windows
+						http://servidpr.local:8530
